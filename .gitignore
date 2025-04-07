@@ -1,39 +1,34 @@
-.qodo
-# altoY
+# Ignore everything
 
-## Ignored files and directories
 
-### IDE-specific files
-.idea/
-.vscode/
-*.sublime-*
+# Allow specific files or directories
+!.gitignore
+!<path-to-required-file-or-directory>
+
+# Common global ignores
+*.log
+*.tmp
 *.swp
-*~
-
-### Build output
-bin/
-obj/
-out/
+*.bak
+*.DS_Store
+Thumbs.db
+*.class
+*.pyc
+*.pyo
+*.zip
+__pycache__/
+node_modules/
 dist/
 build/
-target/
-
-### Dependency directories
-node_modules/
-packages/
-vendor/
-.nuget/
-
-### Logs and databases
-*.log
-*.sqlite
-*.db
-
-### Environment files
 .env
-.env.*
-*.env.local
+.idea/
+.vscode/
+.qodoc/ 
+*.iml   
+*.sublime-project
+*./zip
+.qodo
+codegenerator.zip
+figma-to-json-v0.1.0.zip
+react-vite-figma-plugin-template-master.zip
 
-### System files
-.DS_Store
-Thumbs.db
