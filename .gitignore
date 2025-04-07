@@ -1,0 +1,39 @@
+.qodo
+# altoY
+
+## Ignored files and directories
+
+### IDE-specific files
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+*~
+
+### Build output
+bin/
+obj/
+out/
+dist/
+build/
+target/
+
+### Dependency directories
+node_modules/
+packages/
+vendor/
+.nuget/
+
+### Logs and databases
+*.log
+*.sqlite
+*.db
+
+### Environment files
+.env
+.env.*
+*.env.local
+
+### System files
+.DS_Store
+Thumbs.db
